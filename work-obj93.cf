@@ -1,0 +1,16 @@
+v 4
+file . "testbench/ALU64_TB.vhd" "3492dafe1a82faf1dc1f8f0c811192ffe838a686" "20260903103128.326":
+  entity alu64_tb at 1( 0) + 0 on 19;
+  architecture behavioral of alu64_tb at 7( 84) + 0 on 20;
+file . "src/ALU_shift.vhd" "ca97c791a34b18e1fdfb1dddf9432f91d8e2c83a" "20260903103128.297":
+  entity alu_shift at 1( 0) + 0 on 15;
+  architecture behavioral of alu_shift at 13( 293) + 0 on 16;
+file . "src/Arithmetic_ALU.vhd" "97836630de2a3255b19195b5408463c0c4503fdd" "20260903103128.269":
+  entity arithmetic_alu at 1( 0) + 0 on 11;
+  architecture behavioral of arithmetic_alu at 16( 437) + 0 on 12;
+file . "src/ALU_Logical.vhd" "473929c850c8b497ed200d406c7b2717d8021261" "20260903103128.283":
+  entity alu_logical at 1( 0) + 0 on 13;
+  architecture behavioral of alu_logical at 13( 324) + 0 on 14;
+file . "src/ALU_Control.vhd" "3529e937712021a8c78a4552e16b40934ca9dc35" "20260903103128.312":
+  entity alu_control at 1( 0) + 0 on 17;
+  architecture structural of alu_control at 15( 404) + 0 on 18;
